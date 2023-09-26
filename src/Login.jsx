@@ -33,7 +33,7 @@ export default function Login() {
         <div>
           {/* <h2 className='text-center text-[30px] flex-wrap font-bold text-[#FAFCFC]'>SIGN IN <span className='text-amber-300'>GAMER!</span></h2>
           <p className='text-center text-[15px] flex-wrap font-bold text-[#FAFCFC]'>Unlimited fun awaits you...</p> */}
-          <form className="w-full" onSubmit={handleSignIn}>
+          <form className="w-full" >
             <div className="w-full mt-4 mr-0 mb-0 ml-0 space-y-6 flex flex-col items-center">
               <div className="w-full">
                 <p className=" pt-0 pr-2 pb-0 pl-2 mr-0 mb-0 ml-2 not-italic leading-[normal] tracking-[0.6px] font-bold text-amber-300">
@@ -83,7 +83,7 @@ export default function Login() {
               <p className="text-[#EBEBEC] text-sm not-italic font-medium leading-[normal] tracking-[0.7px]">
                 You dont have an account yet?
                 <a className="text-amber-400 hover:text-amber-300">
-                  <a /> Sign up
+                  Sign up
                 </a>
               </p>
               <p className="text-[#EBEBEC] text-sm not-italic font-medium leading-[normal] tracking-[0.7px]">
