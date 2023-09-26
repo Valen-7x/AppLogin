@@ -15,7 +15,7 @@ export default function Login() {
         });
       }    
   return (
-    <div className="flex flex-wrap flex-col justify-center items-center w-screen md:h-screen bg-slate-900 ">
+    <div className="flex flex-wrap flex-col justify-center items-center w-screen h-screen bg-slate-900 ">
       <div className="flex flex-col md:flex-row sm:gap-3 justify-center items-center mb-[1rem] mt-[1rem] bg-[#080C13] rounded-lg py-1 px-3 sm:w-3/5">
         <div className="flex flex-col w-full items-center justify-center">
           <h2 className="  text-center sm:text-[30px] flex-wrap font-bold text-[#EBEBEC]">
