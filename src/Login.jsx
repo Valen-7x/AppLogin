@@ -1,6 +1,6 @@
 import React from "react";
 import imageGoogle from "./assets/Google.png"
-import Logo from "./assets/logo.png"
+import Logo from "./assets/Logo.png"
 import Swal from 'sweetalert2'
 
 export default function Login() {
